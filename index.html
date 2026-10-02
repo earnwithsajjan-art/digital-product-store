@@ -1,1 +1,226 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07101f">
+<meta name="description" content="AI Income Master — AI tools, earning ideas, resources and digital products.">
+<title>AI Income Master — AI Tools & Online Earning</title>
+<style>
+:root{--bg:#060b16;--card:#0d1729;--card2:#101d33;--line:#1b2a45;--text:#eef5ff;--muted:#9baac0;--cyan:#20dfff;--purple:#8b6cff;--green:#42e6a4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:20;background:rgba(6,11,22,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px}.brand{font-weight:900;letter-spacing:.3px}.brand b{color:var(--cyan)}.links{display:flex;gap:18px;font-size:13px;color:#c8d4e8}.links a:hover{color:var(--cyan)}
+.hero{padding:72px 20px 54px;text-align:center;background:radial-gradient(circle at 50% 0%,#102e58 0,#07101f 55%,var(--bg) 100%)}.badge{display:inline-block;border:1px solid #24527a;color:#6deaff;border-radius:999px;padding:7px 12px;font-size:12px}
+h1{font-size:clamp(40px,7vw,76px);line-height:1.03;margin:20px auto 18px;max-width:900px}h1 span{color:var(--cyan)}.lead{max-width:720px;margin:auto;color:var(--muted)}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:25px 0}.btn{border:0;border-radius:11px;padding:12px 17px;font-weight:800;cursor:pointer;background:linear-gradient(100deg,var(--cyan),var(--purple));color:#03101a}.btn.secondary{background:#0b1628;color:#dce8fa;border:1px solid var(--line)}
+.stats{max-width:900px;margin:35px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat,.card{background:rgba(13,23,41,.9);border:1px solid var(--line);border-radius:16px}.stat{padding:18px}.stat strong{font-size:27px;display:block}.stat small{color:var(--muted)}
+section{max-width:1180px;margin:auto;padding:58px 20px}.sectionhead{text-align:center;margin-bottom:25px}.sectionhead h2{font-size:31px;margin:0 0 7px}.sectionhead p{color:var(--muted);margin:0}
+.toolbar{padding:14px;background:#091326;border:1px solid var(--line);border-radius:16px;display:flex;gap:10px;flex-wrap:wrap}.toolbar input,.toolbar select,.form input,.form textarea,.form select{width:100%;background:#071021;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:12px;outline:none}.toolbar input{flex:1;min-width:220px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.chip{background:#0c1930;color:#b8c8df;border:1px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer;font-size:13px}.chip.active{background:var(--cyan);color:#03101a}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.card{padding:19px}.card h3{margin:7px 0}.card p,.muted{color:var(--muted);font-size:14px}.toolcard{display:flex;flex-direction:column;min-height:205px}.toolcard .btn{margin-top:auto;align-self:flex-start}
+.pill{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:#64eaff}.income{background:linear-gradient(145deg,#0d1c34,#0b1425)}
+.products .card{position:relative}.price{font-size:29px;font-weight:900;margin:5px 0 13px}.list{padding-left:18px;color:#c4d1e3;font-size:14px}.list li{margin:7px 0}
+.finder{max-width:760px;margin:auto}.form{display:grid;gap:12px}.result{display:none;margin-top:14px;padding:18px;border-radius:14px;background:#08172b;border:1px solid #204361}.result.show{display:block}
+.resource-grid{grid-template-columns:repeat(3,1fr)}footer{border-top:1px solid var(--line);padding:30px 20px;text-align:center;color:var(--muted)}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:50;padding:18px;align-items:center;justify-content:center}.modal.open{display:flex}.modalbox{width:min(720px,100%);max-height:90vh;overflow:auto;background:#0a1425;border:1px solid #29415f;border-radius:18px;padding:22px}.close{float:right;background:none;border:0;color:white;font-size:26px;cursor:pointer}.output{white-space:pre-wrap;background:#050b15;border:1px solid var(--line);padding:15px;border-radius:12px;min-height:130px;color:#dce8f7}.notice{font-size:12px;color:#8293aa;margin-top:8px}
+@media(max-width:800px){.links{display:none}.stats,.grid,.resource-grid{grid-template-columns:1fr 1fr}}@media(max-width:520px){.stats,.grid,.resource-grid{grid-template-columns:1fr}section{padding:44px 14px}.hero{padding:55px 15px 40px}h1{font-size:43px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin"><a class="brand" href="#"><b>AI</b> INCOME MASTER</a><div class="links"><a href="#tools">AI Tools</a><a href="#earn">Earn with AI</a><a href="#products">Products</a><a href="#ideas">Ideas</a><a href="#resources">Resources</a></div></div></nav>
+
+<header class="hero">
+<div class="badge">⚡ 50 Working Browser Tools • Earnings • Resources</div>
+<h1>Learn AI. Build <span>Skills.</span><br>Turn Skills Into Income.</h1>
+<p class="lead">Explore practical earning paths, use browser-based AI-style generators, learn useful workflows and build digital products step by step.</p>
+<div class="actions"><a class="btn" href="#tools">🚀 Explore AI Tools</a><a class="btn secondary" href="#earn">💰 Start Earning</a></div>
+<div class="stats"><div class="stat"><strong>50+</strong><small>Core tools</small></div><div class="stat"><strong>15+</strong><small>Earning categories</small></div><div class="stat"><strong>100+</strong><small>Prompt ideas</small></div><div class="stat"><strong>24/7</strong><small>Free access</small></div></div>
+</header>
+
+<section id="tools">
+<div class="sectionhead"><h2>⚡ AI Income Tools</h2><p>Choose a tool, enter a few details and generate a reusable draft in your browser.</p></div>
+<div class="toolbar"><input id="toolSearch" placeholder="Search caption, Fiverr, ebook, pricing..."><select id="catFilter"><option>All</option><option>Content</option><option>Freelancing</option><option>Digital Products</option><option>Business</option><option>Career</option></select></div>
+<div id="toolGrid" class="grid"></div>
+</section>
+
+<section id="earn">
+<div class="sectionhead"><h2>💰 Earn With AI</h2><p>Practical paths you can explore. Income is not guaranteed; results depend on skills, demand and execution.</p></div>
+<div id="earnGrid" class="grid"></div>
+</section>
+
+<section id="finder">
+<div class="sectionhead"><h2>🎯 Find Your Income Path</h2><p>Get starting ideas based on your interests, available time and budget.</p></div>
+<div class="card finder form">
+<label>What are you interested in?<select id="interest"><option>I'm a beginner</option><option>Content creation</option><option>Freelancing</option><option>Digital products</option><option>AI automation</option><option>Online business</option></select></label>
+<label>Time available each day<select id="time"><option>About 1 hour</option><option>2–3 hours</option><option>4+ hours</option></select></label>
+<label>Starting budget<select id="budget"><option>₹0</option><option>₹1,000 or less</option><option>₹5,000 or less</option><option>₹10,000+</option></select></label>
+<button class="btn" onclick="findPath()">Find My Starting Ideas</button>
+<div id="finderResult" class="result"></div>
+</div>
+</section>
+
+<section id="resources">
+<div class="sectionhead"><h2>📚 Free Resource Library</h2><p>Simple resources you can copy, customize and improve.</p></div>
+<div class="grid resource-grid">
+<div class="card"><h3>📝 Client Outreach Template</h3><p>Short first-contact structure for potential clients.</p><button class="btn secondary" onclick="showResource('Client Outreach Template', outreach)">View Sample</button></div>
+<div class="card"><h3>📋 7-Day Action Planner</h3><p>A simple daily execution checklist.</p><button class="btn secondary" onclick="showResource('7-Day Action Planner', planner)">View Planner</button></div>
+<div class="card"><h3>🎨 Portfolio Checklist</h3><p>Basic portfolio items before approaching clients.</p><button class="btn secondary" onclick="showResource('Portfolio Checklist', portfolio)">View Checklist</button></div>
+<div class="card"><h3>💡 50 Content Ideas</h3><p>Reusable content prompts for creators and businesses.</p><button class="btn secondary" onclick="showResource('50 Content Ideas', contentIdeas)">View Sample</button></div>
+<div class="card"><h3>💵 Pricing Worksheet</h3><p>Estimate time, costs and a service price.</p><button class="btn secondary" onclick="showResource('Pricing Worksheet', pricing)">View Worksheet</button></div>
+<div class="card"><h3>🤖 Prompt Starter Pack</h3><p>Prompt structure for clear AI requests.</p><button class="btn secondary" onclick="showResource('Prompt Starter Pack', promptPack)">View Sample</button></div>
+</div>
+</section>
+
+<section id="products" class="products">
+<div class="sectionhead"><h2>🚀 AI Income Master Products</h2><p>Product cards are placeholders until you connect your verified checkout and delivery.</p></div>
+<div class="grid">
+<div class="card"><span class="pill">Starter</span><h3>AI Income Starter</h3><div class="price">₹99</div><ul class="list"><li>100 AI prompts</li><li>25 earning ideas</li><li>7-day action plan</li><li>Beginner resources</li></ul><button class="btn" onclick="productNotice('AI Income Starter — ₹99')">Get Starter Kit</button></div>
+<div class="card"><span class="pill">Popular</span><h3>AI Income PRO</h3><div class="price">₹999</div><ul class="list"><li>Advanced prompts</li><li>Client outreach templates</li><li>Freelancing workflows</li><li>Digital product workflows</li></ul><button class="btn" onclick="productNotice('AI Income PRO — ₹999')">Get PRO</button></div>
+<div class="card"><span class="pill">MAX</span><h3>AI Income MAX</h3><div class="price">₹1,999</div><ul class="list"><li>Complete prompt library</li><li>Product creation system</li><li>Freelancing resources</li><li>Advanced workflows</li></ul><button class="btn" onclick="productNotice('AI Income MAX — ₹1,999')">Get MAX</button></div>
+</div><p class="notice">Demo store: no payment is collected by this page. Replace buttons with your actual checkout URLs only after your products and delivery are ready.</p>
+</section>
+
+<section id="ideas">
+<div class="sectionhead"><h2>🔥 AI Earning Ideas</h2><p>Educational starting points, not guaranteed income claims.</p></div>
+<div class="grid" id="ideasGrid"></div>
+</section>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modalbox"><button class="close" onclick="closeModal()">×</button><h2 id="modalTitle"></h2><div id="modalBody"></div></div></div>
+<footer>© <span id="year"></span> AI Income Master • Learn skills, test ideas, build useful products.</footer>
+
+<script>
+const tools=[
+["Viral Caption Generator","Content","Create platform-ready caption drafts.","caption"],["Viral Hook Generator","Content","Generate attention-opening hook ideas.","hook"],["Reel Script Generator","Content","Build a short-form video script.","reel"],["YouTube Script Generator","Content","Draft a structured YouTube script.","youtube"],["Blog Writer","Content","Create a useful blog outline and draft.","blog"],["Content Ideas Generator","Content","Generate niche content ideas.","ideas"],["Story Generator","Content","Create a simple story structure.","story"],["Content Calendar","Content","Plan a weekly content calendar.","calendar"],["Personal Brand Builder","Content","Define a practical personal-brand angle.","brand"],["Bio Generator","Content","Create short creator/freelancer bios.","bio"],
+["Freelance Niche Finder","Freelancing","Explore services matching your skills.","niche"],["Upwork Profile Writer","Freelancing","Draft a profile overview.","upwork"],["Fiverr Gig Generator","Freelancing","Draft a Fiverr gig title and description.","fiverr"],["Client Proposal Generator","Freelancing","Create a concise client proposal.","proposal"],["Client Outreach Generator","Freelancing","Write a personalized outreach draft.","outreach"],["Follow-up Message Generator","Freelancing","Create a polite follow-up message.","followup"],["Portfolio Content Generator","Freelancing","Draft portfolio case-study copy.","portfolio"],["Freelance Pricing Generator","Freelancing","Build a simple pricing framework.","pricing"],["Service Package Builder","Freelancing","Create three service-package levels.","package"],["Client Brief Generator","Freelancing","Turn a project into a client brief.","brief"],
+["Ebook Creator","Digital Products","Build an ebook outline and chapter plan.","ebook"],["Workbook Creator","Digital Products","Create a practical workbook structure.","workbook"],["Prompt Pack Creator","Digital Products","Create a themed prompt-pack outline.","promptpack"],["Course Outline Creator","Digital Products","Structure a mini-course.","course"],["Template Creator","Digital Products","Plan a useful template product.","template"],["Checklist Creator","Digital Products","Create a checklist resource.","checklist"],["Lead Magnet Creator","Digital Products","Draft a free lead magnet.","lead"],["Digital Product Idea Generator","Digital Products","Generate product ideas for a niche.","productidea"],["Product Description Writer","Digital Products","Write a product listing draft.","productdesc"],["Product Bundle Builder","Digital Products","Combine products into a bundle.","bundle"],
+["Business Idea Generator","Business","Generate small online business concepts.","business"],["Offer Builder","Business","Turn a skill into a clear offer.","offer"],["Landing Page Copy","Business","Draft landing-page sections.","landing"],["Ad Copy Generator","Business","Create short ad-copy variants.","ad"],["Email Sequence Generator","Business","Draft a short welcome sequence.","email"],["Social Media Plan","Business","Create a weekly social plan.","social"],["Client Persona Builder","Business","Describe a target customer.","persona"],["Competitor Research Template","Business","Create a manual research framework.","competitor"],["SOP Generator","Business","Draft a standard operating procedure.","sop"],["Automation Workflow Planner","Business","Map a simple automation workflow.","automation"],
+["Resume Bullet Writer","Career","Improve resume bullet drafts.","resume"],["Cover Letter Writer","Career","Draft a tailored cover letter.","cover"],["LinkedIn About Writer","Career","Draft a LinkedIn About section.","linkedin"],["Interview Question Generator","Career","Generate role-specific practice questions.","interview"],["Skill Roadmap Builder","Career","Build a learning roadmap.","roadmap"],["Learning Plan Generator","Career","Create a weekly learning plan.","learning"],["Service Proposal Outline","Freelancing","Outline a professional service proposal.","serviceproposal"],["Client Meeting Agenda","Business","Prepare a client-call agenda.","agenda"],["Invoice Description Writer","Business","Draft clear service descriptions for invoices.","invoice"],["FAQ Generator","Business","Create useful FAQs for a service or product.","faq"]
+];
+
+const earnings=[
+["💼 AI Freelancing","Offer content, design, research, automation or other services with AI-assisted workflows."],
+["📦 Digital Products","Create useful prompt packs, templates, checklists, guides or workbooks."],
+["🎥 Content Creation","Use AI for ideation, scripting, repurposing and content planning."],
+["🔗 Affiliate Marketing","Create useful content around tools or products and disclose affiliate relationships."],
+["🤖 AI Agency","Package repeatable AI-assisted services for businesses."],
+["▶️ YouTube","Build educational, review or tutorial content around a clear niche."],
+["📱 Instagram","Create niche content and build an audience around a useful topic."],
+["📝 Blogging","Publish searchable educational content and explore legitimate monetization."],
+["🛒 E-commerce","Use AI for research, listings, customer support drafts and content."],
+["⚙️ Automation","Build workflow systems for repetitive business tasks."],
+["💻 SaaS / No-Code","Prototype small software products around a specific problem."],
+["🏪 Local Business Services","Offer digital services to local businesses such as content or profile optimization."],
+["🎨 Design Services","Create thumbnails, social posts, presentations or brand assets."],
+["🎓 Teaching","Turn a skill into tutorials, workshops or structured learning resources."],
+["🧩 Remote Services","Offer research, virtual assistance, documentation or support services."]
+];
+
+const ideas=[
+["AI FREELANCING","How to Start AI Freelancing","Choose one service, create 3 samples and contact relevant prospects."],
+["DIGITAL PRODUCTS","How to Create a Prompt Pack","Pick one audience, solve one recurring task and organize prompts with examples."],
+["CONTENT","AI Content Creation Workflow","Research → outline → draft → human review → publish → repurpose."],
+["FREELANCING","Build a Simple Portfolio","Show the problem, your process, sample output and clear service scope."],
+["PRODUCTS","Create a Starter Bundle","Combine a guide, checklist and templates around one specific outcome."],
+["BUSINESS","Local Business AI Services","Identify repetitive content or admin tasks and propose a small pilot."]
+];
+
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function renderTools(){
+ const q=document.getElementById("toolSearch").value.toLowerCase(), c=document.getElementById("catFilter").value;
+ const arr=tools.filter(t=>(c==="All"||t[1]===c)&&(t[0]+" "+t[1]+" "+t[2]).toLowerCase().includes(q));
+ document.getElementById("toolGrid").innerHTML=arr.map((t,i)=>`<article class="card toolcard"><span class="pill">${esc(t[1])}</span><h3>${esc(t[0])}</h3><p>${esc(t[2])}</p><button class="btn" onclick="openTool(${tools.indexOf(t)})">Open Tool</button></article>`).join("")||`<div class="card"><h3>No tool found</h3><p>Try another search term or select All.</p></div>`;
+}
+function renderEarnings(){document.getElementById("earnGrid").innerHTML=earnings.map(e=>`<article class="card income"><h3>${e[0]}</h3><p>${e[1]}</p></article>`).join("")}
+function renderIdeas(){document.getElementById("ideasGrid").innerHTML=ideas.map(e=>`<article class="card"><span class="pill">${e[0]}</span><h3>${e[1]}</h3><p>${e[2]}</p></article>`).join("")}
+
+function openTool(i){
+ const t=tools[i];
+ document.getElementById("modalTitle").textContent=t[0];
+ document.getElementById("modalBody").innerHTML=`<p class="muted">${esc(t[2])}</p><div class="form"><label>Topic / niche<input id="toolTopic" placeholder="e.g. AI tools for freelancers"></label><label>Audience<input id="toolAudience" placeholder="e.g. beginners in India"></label><label>Extra details<textarea id="toolDetails" rows="4" placeholder="Add your offer, platform, tone, keywords or requirements"></textarea></label><button class="btn" onclick="generateTool('${t[3]}','${esc(t[0])}')">Generate Draft</button><div id="toolOutput" class="output">Your generated draft will appear here.</div><button class="btn secondary" onclick="copyOutput()">Copy Result</button><div class="notice">This is a browser-based template generator. It does not call a live AI API or guarantee results.</div></div>`;
+ document.getElementById("modal").classList.add("open");
+}
+function closeModal(){document.getElementById("modal").classList.remove("open")}
+function val(id){return document.getElementById(id)?.value.trim()||""}
+function generateTool(type,name){
+ const topic=val("toolTopic")||"your niche", audience=val("toolAudience")||"your target audience", extra=val("toolDetails");
+ const title=name;
+ const base={
+ caption:`Caption for ${topic}\\n\\nHook: A useful insight for ${audience}.\\n\\nValue: Explain one practical step, one common mistake and one next action.\\n\\nCTA: Save this post and try the step today.\\n\\nNote: Customize claims, examples and tone before publishing.`,
+ hook:`5 hook ideas for ${topic}:\\n1. Stop doing this if you want better results.\\n2. Here is a simple way to start with ${topic}.\\n3. Beginners often miss this part of ${topic}.\\n4. I tested a simple workflow for ${topic}.\\n5. Before you buy another tool, check this.`,
+ reel:`30–45 sec reel script — ${topic}\\n\\n0–3s: Hook\\n“Want a simpler way to approach ${topic}?”\\n\\n3–12s: Problem\\nDescribe one specific pain point for ${audience}.\\n\\n12–30s: 3 steps\\n1) Pick one task.\\n2) Use one repeatable workflow.\\n3) Review the output and improve it.\\n\\n30–45s: CTA\\n“Save this workflow and test it today.”`,
+ youtube:`YouTube outline — ${topic}\\n\\nTitle: A Practical Beginner Guide to ${topic}\\n1. What it is\\n2. Who it helps\\n3. Tools or resources needed\\n4. Step-by-step workflow\\n5. Common mistakes\\n6. Example\\n7. Next steps\\n\\nAudience: ${audience}`,
+ blog:`Blog draft framework — ${topic}\\n\\nH1: A Practical Guide to ${topic}\\n\\nIntroduction\\nExplain the problem and who the guide is for.\\n\\nH2: What to know first\\nH2: Step-by-step process\\nH2: Common mistakes\\nH2: Useful tools/resources\\nH2: Frequently asked questions\\n\\nConclusion\\nGive one realistic next action.`,
+ ideas:`20 content ideas for ${topic}:\\n1. Beginner guide\\n2. 3 common mistakes\\n3. Tools comparison framework\\n4. Before/after workflow\\n5. Checklist\\n6. FAQ\\n7. Myth vs fact\\n8. Case-study format\\n9. Tutorial\\n10. Quick tips\\n11. Resource list\\n12. Behind the scenes\\n13. Workflow breakdown\\n14. Challenge\\n15. Templates\\n16. Definitions\\n17. Cost breakdown\\n18. Time-saving tips\\n19. Common questions\\n20. Weekly series`,
+ story:`Story structure about ${topic}:\\nBeginning — introduce ${audience} and the problem.\\nMiddle — show the obstacle and a practical attempt.\\nTurning point — one useful insight changes the approach.\\nEnding — show the lesson and one next action.`,
+ calendar:`7-day content calendar for ${topic}:\\nDay 1: Beginner guide\\nDay 2: Common mistake\\nDay 3: Tool/resource tutorial\\nDay 4: FAQ\\nDay 5: Case-study format\\nDay 6: Checklist\\nDay 7: Recap + CTA`,
+ brand:`Personal brand angle for ${audience} around ${topic}:\\nPositioning: Make complex topics practical.\\n3 pillars: Education, experiments, resources.\\nContent tone: Clear, useful, transparent.\\nCTA: Follow for practical workflows and templates.`,
+ bio:`Bio draft:\\nHelping ${audience} learn practical ${topic} workflows.\\nSharing tutorials, resources, experiments and useful tools.\\nBuilding in public and improving one workflow at a time.`,
+ niche:`Niche exploration for ${topic}:\\nPotential service areas: content support, research, workflow setup, documentation, social media support.\\nValidation checklist: identify a specific customer, interview 5 prospects, create 3 samples, test a small paid pilot.`,
+ upwork:`Upwork profile draft:\\nI help ${audience} with ${topic}-related tasks using structured, human-reviewed workflows.\\nServices: research, content, documentation and workflow support.\\nProcess: brief → draft → review → revision → delivery.\\nCustomize this with real skills and portfolio evidence.`,
+ fiverr:`Fiverr gig draft:\\nTitle: I will help you with ${topic}\\nDescription: A clear service for ${audience}, including defined deliverables, revision limits and turnaround time.\\nPackages: Basic / Standard / Premium.\\nFAQ: scope, revisions, delivery and source files.`,
+ proposal:`Client proposal draft:\\nHi, I reviewed your request around ${topic}. I can help by first clarifying the outcome, then creating a small draft, reviewing it against your requirements and delivering the final version.\\nSuggested next step: confirm scope, deadline and deliverables.`,
+ outreach:`Outreach draft:\\nHi [Name], I noticed [specific observation] about your ${topic}. I have a simple idea that may help with [specific task]. I can share a small sample first so you can evaluate the approach. Would you like to see it?`,
+ followup:`Follow-up draft:\\nHi [Name], just following up on my earlier message about ${topic}. No pressure — if this is relevant, I can send a short sample and suggested next step.`,
+ portfolio:`Portfolio case study structure — ${topic}:\\n1. Client/problem\\n2. Goal\\n3. Your process\\n4. Tools used\\n5. Deliverable\\n6. Result or measurable change (only if verified)\\n7. What you learned.`,
+ pricing:`Simple pricing worksheet — ${topic}:\\nEstimated hours: ___\\nTarget hourly value: ₹___\\nTool/operating costs: ₹___\\nRevision allowance: ___\\nTotal project price: ₹___\\nCheck competitor and customer context before finalizing.`,
+ package:`Service package idea — ${topic}:\\nBasic: one defined deliverable.\\nStandard: deliverable + revision + simple report.\\nPremium: broader scope + multiple deliverables + support period.\\nSet clear scope and limits.`,
+ brief:`Client brief — ${topic}:\\nObjective: ___\\nTarget audience: ${audience}\\nDeliverables: ___\\nReferences: ___\\nDeadline: ___\\nRevision policy: ___\\nSuccess criteria: ___`,
+ ebook:`Ebook outline — ${topic}:\\n1. Introduction\\n2. Foundations\\n3. Step-by-step method\\n4. Examples\\n5. Mistakes\\n6. Templates/checklists\\n7. Action plan\\n8. Conclusion`,
+ workbook:`Workbook — ${topic}:\\nPage 1: Goal\\nPage 2: Current situation\\nPage 3: Exercise\\nPage 4: Checklist\\nPage 5: Planning worksheet\\nPage 6: Review\\nPage 7: Next action`,
+ promptpack:`Prompt pack — ${topic}:\\nPrompt 1: Research\\nPrompt 2: Brainstorm\\nPrompt 3: Outline\\nPrompt 4: Draft\\nPrompt 5: Improve\\nPrompt 6: Quality check\\nEach prompt should include role, context, task, constraints and output format.`,
+ course:`Mini-course outline — ${topic}:\\nModule 1: Foundations\\nModule 2: Setup\\nModule 3: Workflow\\nModule 4: Practice project\\nModule 5: Review\\nBonus: templates + checklist`,
+ template:`Template product — ${topic}:\\nDefine user → define recurring task → create reusable fields → add instructions → test with 3 examples → document how to use.`,
+ checklist:`Checklist — ${topic}:\\n☐ Define goal\\n☐ Define audience\\n☐ Gather references\\n☐ Create first draft\\n☐ Review for accuracy\\n☐ Test with a real example\\n☐ Package final resource`,
+ lead:`Lead magnet — ${topic}:\\nTitle: The Beginner Quick-Start Guide to ${topic}\\nPromise: one clear practical outcome.\\nSections: quick-start steps, checklist, mistakes, resources, next action.`,
+ productidea:`10 digital product ideas around ${topic}: guide, checklist, prompt pack, template, workbook, mini-course, swipe file, calculator, resource directory, bundle. Validate demand before building.`,
+ productdesc:`Product description draft — ${topic}:\\nWho it is for: ${audience}\\nProblem: ___\\nWhat is included: ___\\nHow to use it: ___\\nLimitations: ___\\nNext step: ___`,
+ bundle:`Bundle concept — ${topic}:\\nCore guide + prompt pack + checklist + templates + 7-day action plan. Explain the use case and avoid unsupported income promises.`,
+ business:`Business ideas around ${topic}:\\n1. Productized service\\n2. Digital resource\\n3. Training/workshop\\n4. Workflow setup\\n5. Niche content site\\nValidate with customer conversations before investing heavily.`,
+ offer:`Offer builder — ${topic}:\\nAudience: ${audience}\\nProblem: ___\\nOutcome: ___\\nDeliverables: ___\\nTimeline: ___\\nPrice: ___\\nProof: use only real evidence.`,
+ landing:`Landing page outline — ${topic}:\\nHero → problem → solution → how it works → features → examples → FAQ → CTA → terms.`,
+ ad:`Ad copy drafts for ${topic}:\\nA) Problem-led: “Need a simpler way to handle ${topic}? Try a structured workflow.”\\nB) Benefit-led: “Save time by organizing your ${topic} process.”\\nC) Curiosity: “Here is a simple ${topic} workflow beginners can test.”`,
+ email:`3-email sequence — ${topic}:\\nEmail 1: Welcome + useful resource.\\nEmail 2: One practical workflow.\\nEmail 3: Case/example + clear next step.\\nAvoid spammy claims and provide unsubscribe options for real campaigns.`,
+ social:`Weekly social plan — ${topic}:\\nMon: educational post\\nTue: short tutorial\\nWed: FAQ\\nThu: behind-the-scenes\\nFri: checklist\\nSat: case-study format\\nSun: recap`,
+ persona:`Customer persona — ${topic}:\\nAudience: ${audience}\\nGoal: ___\\nPain points: ___\\nCurrent workaround: ___\\nObjections: ___\\nBuying trigger: ___`,
+ competitor:`Manual competitor research sheet — ${topic}:\\nCompetitor: ___\\nOffer: ___\\nAudience: ___\\nPrice: ___\\nStrengths: ___\\nGaps: ___\\nEvidence/source: ___`,
+ sop:`SOP — ${topic}:\\n1. Receive brief\\n2. Confirm requirements\\n3. Prepare inputs\\n4. Draft\\n5. Review\\n6. Deliver\\n7. Archive and record lessons.`,
+ automation:`Automation workflow — ${topic}:\\nTrigger → collect input → validate → process → human review → deliver → log result.\\nOnly automate steps that are reliable and appropriate.`,
+ resume:`Resume bullet formula for ${topic}:\\nAction + task + tool/skill + measurable result (only if verified).\\nExample structure: “Created ___ using ___, improving ___ by ___%.” Do not invent metrics.`,
+ cover:`Cover letter draft:\\nDear Hiring Team,\\nI am interested in the role because it aligns with my experience in ${topic}. My relevant strengths include [skill], [skill] and [evidence]. I would welcome the opportunity to discuss how I can contribute.\\nRegards, [Name]`,
+ linkedin:`LinkedIn About draft:\\nI work on practical ${topic} projects and enjoy turning complex tasks into clear workflows. My focus areas include [skills]. I share lessons, resources and project examples. Open to relevant opportunities and collaborations.`,
+ interview:`Interview practice for ${topic}:\\n1. Tell me about your relevant experience.\\n2. Describe a difficult project.\\n3. How do you prioritize?\\n4. How do you check quality?\\n5. What would you improve in your process?`,
+ roadmap:`Skill roadmap for ${topic}:\\nStage 1: fundamentals\\nStage 2: 3 guided projects\\nStage 3: portfolio\\nStage 4: real-world practice\\nStage 5: specialization\\nStage 6: continuous improvement.`,
+ learning:`4-week learning plan — ${topic}:\\nWeek 1: fundamentals\\nWeek 2: guided practice\\nWeek 3: project\\nWeek 4: review + portfolio.\\nDaily: 30–60 min focused practice.`,
+ serviceproposal:`Service proposal outline — ${topic}:\\nContext → objective → scope → deliverables → timeline → assumptions → revisions → price → next step.`,
+ agenda:`Client meeting agenda — ${topic}:\\n1. Goal\\n2. Current process\\n3. Pain points\\n4. Desired outcome\\n5. Scope\\n6. Timeline\\n7. Next actions.`,
+ invoice:`Invoice description examples for ${topic}:\\n• Research and planning\\n• Content drafting and revision\\n• Workflow setup\\n• Template creation\\n• Documentation and handover`,
+ faq:`FAQ draft — ${topic}:\\nQ: Who is this for?\\nA: ${audience}.\\nQ: What is included?\\nA: Define exact deliverables.\\nQ: How long does it take?\\nA: State your real turnaround.\\nQ: Is a result guaranteed?\\nA: No; outcomes depend on implementation and context.`
+ };
+ let out=base[type]||`Draft for ${title} — ${topic}\\nAudience: ${audience}\\nDetails: ${extra||"Add your specific requirements."}`;
+ if(extra) out+="\\n\\nAdditional requirements to incorporate:\\n"+extra;
+ document.getElementById("toolOutput").textContent=out;
+}
+function copyOutput(){navigator.clipboard?.writeText(document.getElementById("toolOutput").textContent);alert("Result copied (if your browser allows clipboard access).")}
+function showResource(title,text){document.getElementById("modalTitle").textContent=title;document.getElementById("modalBody").innerHTML=`<div class="output">${esc(text)}</div><button class="btn" onclick="navigator.clipboard?.writeText(document.querySelector('.output').textContent);alert('Copied')">Copy</button>`;document.getElementById("modal").classList.add("open")}
+function productNotice(name){showResource(name,"This product button is currently a demo. Connect it to your verified checkout page only after the product file, delivery flow, refund terms and payment setup are ready.")}
+function findPath(){
+ const i=val("interest"),t=val("time"),b=val("budget");let suggestions=[];
+ if(i.includes("Freelancing")) suggestions=["Choose one service","Create 3 portfolio samples","Contact relevant prospects"];
+ else if(i.includes("Digital")) suggestions=["Choose one audience","Build one small resource","Test demand before expanding"];
+ else if(i.includes("Content")) suggestions=["Choose one niche","Publish consistently","Repurpose strong topics"];
+ else if(i.includes("automation")) suggestions=["Find one repetitive task","Map the workflow","Build and test a small system"];
+ else suggestions=["Learn one practical skill","Create 3 small samples","Test one earning path"];
+ document.getElementById("finderResult").innerHTML=`<strong>Starting path</strong><p>Interest: ${esc(i)} • Time: ${esc(t)} • Budget: ${esc(b)}</p><ol>${suggestions.map(x=>`<li>${x}</li>`).join("")}</ol><p class="notice">These are starting ideas, not a promise of earnings.</p>`;document.getElementById("finderResult").classList.add("show");
+}
+const outreach="Hi [Name], I noticed [specific observation]. I can help with [specific task] using a structured workflow. I can share a small sample first so you can evaluate the approach. Would you like to see it?";
+const planner="Day 1: choose one skill\nDay 2: define one service\nDay 3: create sample #1\nDay 4: create sample #2\nDay 5: create sample #3\nDay 6: improve profile/portfolio\nDay 7: contact relevant prospects and review feedback.";
+const portfolio="☐ Clear headline\n☐ About/service description\n☐ 3 relevant samples\n☐ Process explained\n☐ Deliverables defined\n☐ Contact method\n☐ Only verified results/claims";
+const contentIdeas="1. Beginner guide\n2. FAQ\n3. Mistakes\n4. Checklist\n5. Tutorial\n6. Case-study format\n7. Tool walkthrough\n8. Myth vs fact\n9. Before/after process\n10. Resource list\n11. Templates\n12. Weekly series";
+const pricing="Hours × target hourly value + direct costs + revision allowance = project price. Compare with your market and customer context. Do not underprice solely to win every project.";
+const promptPack="Role: [expert]\nContext: [background]\nTask: [exact task]\nConstraints: [limits]\nInputs: [data]\nOutput format: [format]\nQuality check: [criteria]";
+document.getElementById("toolSearch").addEventListener("input",renderTools);document.getElementById("catFilter").addEventListener("change",renderTools);
+document.getElementById("year").textContent=new Date().getFullYear();renderTools();renderEarnings();renderIdeas();
+</script>
+</body>
+</html>
